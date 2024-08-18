@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Exkave</h1>
+        <p>Web Developer | Graphic Designer</p>
+    </header>
+
+    <section id="home">
+        <h2>Welcome</h2>
+        <p>Welcome to Exkave. Exkave will provide you web designing contetns,editing and much more..</p>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>Exkave is a forward-thinking company specializing in innovative solutions that drive efficiency and growth. Our expertise spans across technology development, data analytics, and strategic consulting, empowering businesses to navigate and thrive in a rapidly evolving landscape. At Exkave, we are committed to delivering high-quality, customized services that address unique challenges and unlock new opportunities for our clients. With a focus on excellence and a dedication to client success, we strive to be a trusted partner in achieving sustainable, long-term results..</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-item">
+            <img src="/Screenshot_2024-08-18-10-21-37-10_40deb401b9ffe8e1df2f1cc5ba480b12.jpg" alt="Project 1">
+            <h3 ><a onclick=openForm()><u>Wish Happy Birthday</u></a></h3>
+            
+            
+            <!-- The form -->
+            <div class="form-popup" id="myForm">
+              <form action="https://exkave.github.io/hpbirthday/" class="form-container">
+                <h1>Form</h1>
+            
+                <label for="From"><b>From</b></label>
+                <input type="text" placeholder="Your Name" name="from" required>
+            
+                <label for="receiver"><b>To</b></label>
+                <input type="text" placeholder="Receiver's Name" name="name" required>
+            
+                <button type="submit" class="btn">Send</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+              </form>
+            </div>
+            
+            <p>This is the first project from us. Wish your friends a memorable birthday with this small gift. Click on the title and write your name and his/her name to proceed</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, fill out the form below:</p>
+        <form action="mailto: jagakuswain@gmail.com?subject=Feed Back" method="post">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+        
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Gopal. All rights reserved.</p>
+            <div class="social-media">
+              <div class='item'>
+              <a href="https://github.com/exkave" class="social-link" target="_blank" title="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://instagram.com/exkave" class="social-link" target="_blank" title="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              </div>
+            </div>
+    </footer>
+</body>
+<<script src="main.js"></script>
+                </html>
+                
